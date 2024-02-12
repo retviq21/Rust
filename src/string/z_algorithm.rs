@@ -58,6 +58,8 @@ mod tests {
         assert_eq!(array, vec![0, 1, 0, 4, 1, 0, 1, 0]);
     }
 
+//first test
+
     #[test]
     fn pattern_in_text() {
         let text: &str = concat!(

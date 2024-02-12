@@ -1,5 +1,7 @@
 use std::cmp::Ordering;
 
+//binary search
+
 pub fn binary_search_rec<T: Ord>(
     list_of_items: &[T],
     target: &T,

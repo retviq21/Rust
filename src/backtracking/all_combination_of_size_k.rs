@@ -12,6 +12,8 @@ pub fn generate_all_combinations(n: i32, k: i32) -> Vec<Vec<i32>> {
     result
 }
 
+//create_all_state
+
 fn create_all_state(
     increment: i32,
     total_number: i32,
